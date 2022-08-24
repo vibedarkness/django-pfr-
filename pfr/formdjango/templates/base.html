@@ -13,6 +13,10 @@
     <link href="{% static "bootstrap/css/bootstrap.min.css" %}" rel="stylesheet" type="text/css" />
     <link href="{% static "assets/css/plugins.css" %}" rel="stylesheet" type="text/css" />
     <link href="{% static "assets/css/authentication/form-2.css" %}" rel="stylesheet" type="text/css" />
+    <link href="{% static "assets/css/scrollspyNav.css" %}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{% static "assets/css/forms/theme-checkbox-radio.css" %}">
+    <link href="{% static "assets/css/elements/search.css" %}" rel="stylesheet" type="text/css" />
+    <link href="{% static "assets/css/tables/table-basic.css" %}" rel="stylesheet" type="text/css" />
     <!-- END GLOBAL MANDATORY STYLES -->
     <link rel="stylesheet" type="text/css" href="{% static "assets/css/forms/theme-checkbox-radio.css" %}">
     <link rel="stylesheet" type="text/css" href="{% static "assets/css/forms/switches.css" %}">
@@ -25,11 +29,13 @@
     {% endblock main %}
 
 
-    
+
 
 <script src="{% static "assets/js/libs/jquery-3.1.1.min.js" %}" ></script>
 <script src="{% static "bootstrap/js/popper.min.js" %}" ></script>
 <script src="{% static "bootstrap/js/bootstrap.min.js" %}" ></script>
+
+<script src="{% static "assets/js/elements/custom-search.js" %}"></script>
 
 <!-- END GLOBAL MANDATORY SCRIPTS -->
 <script src="{% static "assets/js/authentication/form-2.js" %}" ></script>

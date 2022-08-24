@@ -3,9 +3,10 @@ from unicodedata import name
 from django.urls import path,include
 
 
-from .views import index
+from .views import index,tableau
 
 
 urlpatterns = [
-    path('', index,name="index" )
+    path('', index,name="index" ),
+    path('tableau/',tableau,name="tableau" ),
 ]
